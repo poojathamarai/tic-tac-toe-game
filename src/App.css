@@ -1,0 +1,36 @@
+body{
+  background-image: url("https://cdn.dribbble.com/users/673549/screenshots/3159371/videogamecontroller_background.jpg")
+}
+.game-box{
+  height:8rem;
+  width:8rem;
+  background-color:whitesmoke;
+  border: 4px solid wheat;
+  border-width: 10px;
+  border-style: groove;
+  border-radius: 5px;
+  font-size: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.game-box:hover{
+  background-color:silver;
+}
+.game{
+  align-content: center;
+}
+.board{
+  width: min-content;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-left: 450px;
+  margin-top: 4rem;
+}
+.game-text{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+   text-align: center;
+}
