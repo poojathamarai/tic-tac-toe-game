@@ -19,7 +19,7 @@ body{
   background-color:silver;
 }
 .game{
-  align-content: center;
+ justify-content: center;
 }
 .board{
   width: min-content;
