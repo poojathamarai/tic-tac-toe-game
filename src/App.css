@@ -25,7 +25,6 @@ body{
   width: min-content;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  padding-left: 450px;
   margin-top: 4rem;
 }
 .game-text{
