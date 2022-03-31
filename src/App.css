@@ -26,7 +26,7 @@ body{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   margin-top: 2rem;
-   align-content: center;
+  justify-content: center;
 }
 .game-text{
   color: white;
