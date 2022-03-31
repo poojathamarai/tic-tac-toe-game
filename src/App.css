@@ -25,7 +25,8 @@ body{
   width: min-content;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  margin-top: 4rem;
+  margin-top: 2rem;
+   align-content: center;
 }
 .game-text{
   color: white;
